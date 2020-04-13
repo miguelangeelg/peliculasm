@@ -34,6 +34,11 @@ white-space: nowrap;
   }
 }
 
+.favo{
+  font-family: 'Oswald', sans-serif;
+  color:#ED2A2A;  
+}
+
 html{
   font-family: 'Oswald', sans-serif;
  color: #ED2A2A;    
@@ -382,3 +387,8 @@ html, body{background : #252A37;  height: 100%; width: 100%; margin: 0;}
 .icon-user:before {
   content: "\e971";
 }
+
+
+/*
+parte de seccion favoritas
+*/
