@@ -1,0 +1,384 @@
+
+
+
+body{
+
+    background: #252A37;
+}
+
+
+
+.typewriter h3{
+  overflow: hidden;
+   border-right: 0.15em solid #252A37;
+white-space: nowrap;
+   margin: 0 auto;
+   letter-spacing: 0.12em;
+   animation: typing 3.5s steps(30,end), blink-caret 0.5s step-end infinite;
+}
+@keyframes typing{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+@keyframes blink-caret{
+  from,
+  to{
+    border-color: transparent;
+  }
+  50%{
+    border-color: #252A37;
+  }
+}
+
+html{
+  font-family: 'Oswald', sans-serif;
+ color: #ED2A2A;    
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height:100%;
+    color: #252A37;
+  }
+  
+img{
+    position: absolute;
+  top:  -30px;
+  left: 570px;
+}
+
+ .titu{
+     font-family: 'Oswald', sans-serif;
+     position: relative;
+     font-size:100px;
+     top:  150px;
+     left:-550px;
+ }
+  .hola{
+      background-color: #C83434;
+      font-family: 'Open Sans', sans-serif;
+
+  }
+
+  .hh2{
+      color: #ededed;
+  }
+
+  .hh3{
+      position: absolute;
+    color: #252A37; 
+    left: -600px;
+    top:285px;
+  }
+  .hh32{
+    position: absolute;
+  color: #252A37; 
+  left: -550px;
+  top:320px;
+}
+
+.semana{
+    position:absolute;
+        width: 180px;
+        top:  140px;
+  left: 190px;
+}
+  body {
+    margin:0;
+    background:#949494;
+    font-size:1.3em;
+    color:red;
+    font-family:'Open Sans', sans-serif;
+  }
+  .inicio{
+      width: -10cm;
+      height: 10cm;
+      padding: -50em;
+    top:  -100px;
+    background:#252A37;
+    border-radius: 15px;
+  }
+
+  section {
+    float:left;
+    width:100%;
+    background:#252A37;
+    position:relative;
+    box-shadow:0 0 5px 0px #333;
+  }
+  
+  
+  /* the important styles */
+  
+  .arrow-wrap {
+    position:absolute;
+    z-index:1;
+    left:50%;
+    top:-5em;
+    margin-left:-5em;
+    background:#111;
+    width:10em;
+    height:10em;
+    padding:4em 2em;
+    border-radius:50%;
+    font-size:0.5em;
+    display:block;
+    box-shadow:0px 0px 5px 0px #333;
+  }
+  
+  .arrow {
+    float:left;
+    position:relative;
+    width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #C83434 transparent transparent transparent;
+    -webkit-transform:rotate(360deg)
+  }
+  
+  .arrow:after {
+    content:'';
+    position:absolute;
+    top:-3.2em;
+    left:-3em;
+    width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #111 transparent transparent transparent;
+    -webkit-transform:rotate(360deg)
+  }
+  
+  
+  .hint {
+    position:absolute;
+    top:0.6em;
+    width:100%;
+    left:0;
+    font-size:2em;
+    font-style:italic;
+    text-align:center;
+    color:#252A37;
+    opacity:0;
+  }
+  
+  
+  .arrow-wrap:hover .hint {
+    opacity:1;
+  }
+  
+  
+    @-webkit-keyframes arrows {
+      0% { top:0; }
+      10% { top:12%; }
+      20% { top:0; }
+      30% { top:12%; }
+      40% { top:-12%; }
+      50% { top:12%; }
+      60% { top:0; }
+      70% { top:12%; }
+      80% { top:-12%; }
+      90% { top:12%; }
+      100% { top:0; }
+    }
+    
+    .arrow-wrap .arrow {
+      -webkit-animation: arrows 2.8s 0.4s;
+      -webkit-animation-delay: 3s;
+    }
+  
+  
+  
+  
+  
+  /*  this is the unimportant CSS used just to layout the content  */
+  
+  
+  
+  header {
+    float:left;
+    width:100%;
+    padding:2em 4em;
+    
+    height:calc(100% - 3em);
+  }
+  
+  header {
+    margin:0;
+  }
+  header h3 {
+    margin:0;
+    color: #56dcee ;
+  }
+  
+  header a {
+    color:#56dcee;
+    opacity:0.5;
+    text-decoration:none;
+  }
+  
+  header a:hover {
+    color:#333;
+    opacity:1;
+  }
+  
+  
+  .content {
+    float:left;
+    width:70%;
+    margin:0 15%;
+    padding:2em 0;
+  }
+  
+  
+  
+  h2, h3 {
+    
+    font-weight:300;
+    font-size:1.5em;
+    margin-top:2em;
+  }
+  
+  pre {
+    background:#ededed;
+    padding:1em;
+  }
+  
+  p {
+    color:#555;
+    font-size:0.9em;
+  }
+  
+ 
+  p a {
+    color:#14b5d1;
+    text-decoration:none;
+  }
+  
+
+
+
+  
+  /* Boton   */
+
+
+  @import url(https://fonts.googleapis.com/css?family=Roboto:700);
+html, body{background : #252A37;  height: 100%; width: 100%; margin: 0;}
+
+#holder{
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  background: white;
+  padding: 10px;
+  width: 250px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-65%);
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.25);
+  border-radius: 2px;
+}
+.button {
+  background: #252A37;
+  margin : 20px auto;
+  width : 200px;
+  height : 50px;
+  overflow: hidden;
+  text-align : center;
+  transition : .2s;
+  cursor : pointer;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+.btnTwo {
+  position : relative;
+  width : 200px;
+  height : 100px;
+  margin-top: -100px;
+  padding-top: 2px;
+  background : #C83434;
+  left : -250px;
+  transition : .3s;
+}
+.btnText {
+  color : #C83434;
+  transition : .3s;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+.btnText2 {
+  margin-top : 20px;
+  margin-right : -130px;
+  color : #252A37;
+  font-size: 25px;
+}
+.button:hover .btnTwo{ /*When hovering over .button change .btnTwo*/
+  left: -130px;
+}
+.button:hover .btnText{ /*When hovering over .button change .btnText*/
+  margin-left : 65px;
+}
+.button:active { /*Clicked and held*/
+  box-shadow: 0px 5px 6px rgba(0,0,0,0.3);
+}
+
+.init{
+
+  position: absolute;
+  left: -430px;
+  top: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ignorar esto no borrar*/
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?7m7fwi');
+  src:  url('fonts/icomoon.eot?7m7fwi#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7m7fwi') format('truetype'),
+    url('fonts/icomoon.woff?7m7fwi') format('woff'),
+    url('fonts/icomoon.svg?7m7fwi#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-user:before {
+  content: "\e971";
+}
