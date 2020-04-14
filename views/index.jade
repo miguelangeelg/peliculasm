@@ -7,7 +7,7 @@ block contenido
      .row.mt-5
       .col-md-6
         .header-content-left
-          img.img-circle(src='./img/logoinicio.png', style='width: 100%')
+          img.img-circle.imageninicio(src='./img/logoinicio.png', style='width: 100%')
         
       .col-md-6
         .header-content-right
@@ -21,28 +21,31 @@ block contenido
                p.btnText2.icon-user
  
  
+ 
  section.main
+
   a.arrow-wrap(href='#content')
     span.arrow
    
   #content.content
-    br
-    br
-    br
+
     center
      h1.favo Peliculas Favoritas
     br
     br
-    include favoritas.jade
-    pre.
-     quizas sirva este pre
-    h2 Animation
-    p Mas
-    pre.
+    .no
+     include favoritas.jade
+    br
+    .mas 
+      pre
+       quizas sirva este pre
+      h2 Animation
+      p Mas
+      pre.
      
-    p
-      | FOOTER
-      a(href='http://www.robsawyer.me/blog/2013/09/17/scroll-indicator/') robsawyer.me
+      p
+        | FOOTER
+        a(href='http://www.robsawyer.me/blog/2013/09/17/scroll-indicator/') robsawyer.me
 
     br
     br

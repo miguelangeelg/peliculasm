@@ -55,7 +55,7 @@ html{
     color: #252A37;
   }
   
-img{
+.imageninicio{
     position: absolute;
   top:  -30px;
   left: 570px;
@@ -81,13 +81,13 @@ img{
   .hh3{
       position: absolute;
     color: #252A37; 
-    left: -600px;
+    left: -500px;
     top:285px;
   }
   .hh32{
     position: absolute;
   color: #252A37; 
-  left: -550px;
+  left: -450px;
   top:320px;
 }
 
@@ -393,4 +393,52 @@ html, body{background : #252A37;  height: 100%; width: 100%; margin: 0;}
 parte de seccion favoritas
 */
 
+.car{
+  position: absolute;
+  width: 20rem;
+  height: 24rem;
+}
 
+
+.card{
+  height: 300px;
+  width: 20rem;
+}
+
+
+.titucard{
+  position: relative;
+  top: -20px;
+  left: 70px;
+  font-size: 15px;
+}
+
+.card-body{
+padding: 0rem;
+}
+.imgcard{
+  position: relative;
+  top: -20px;
+  left: -16px;
+}
+
+.botoncard{
+  position:absolute;
+  top: 275px;
+  left:50px;
+  background-color: #14b5d1;
+}
+.mas{
+  position: absolute;
+  top: 500px;
+}
+
+.card{
+  position: absolute;
+  top: 90px;
+}
+
+.favo{
+  position: absolute;
+  top: 60px;
+}
