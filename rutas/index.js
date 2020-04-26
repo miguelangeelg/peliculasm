@@ -12,7 +12,7 @@ let error= new Error()
 let local={
     titulo: 'Pagina No Encontrada 🤕',
     tipo:'ERROR 404',
-    error:error
+    error:error.stack.slice(0,190)+'....'
 }
 error.status=404
 response.render('error',local)
